@@ -61,7 +61,7 @@ export async function handler(chatUpdate) {
                 if (!('acc' in chat))
                     chat.acc = false
                 if (!('welcome' in chat))
-                    chat.welcome = false
+                    chat.welcome = true
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
@@ -119,7 +119,7 @@ export async function handler(chatUpdate) {
                     simi: false,
                     expired: 0,
                     rpgs: false,
-                    games: false
+                    games: true
                 }
             let settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
