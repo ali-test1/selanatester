@@ -46,9 +46,9 @@ global.media = {
 
 // Sosmed
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
- sgh:  'https://github.com/noureddineouafy',
- sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
+ sig: 'https://www.instagram.com/ali_maoie_v?igsh=eWVybTNqcHFtcG5p',
+ sgh:  'https://github.com/ali-test1/selanatester',
+ sgc: 'https://whatsapp.com/channel/0029ValqtZALtOj5BbMDRV0u'
 }
 
 global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
